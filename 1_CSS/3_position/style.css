@@ -1,0 +1,27 @@
+div {
+    border-style: solid;
+    height: 100px;
+}
+
+
+.div1 {
+    background-color: firebrick; 
+
+    width: 100px;
+
+    /* relativ bezieht sich auf ursprungsposition
+    position: relative; */
+
+    /* bezieht sich auf parent container wo element drin ist 
+    position: absolute; */
+
+    /* bleibt bei scrollen stehen
+    position: fixed; */
+
+    /* 'wandert' zuerst mit, bleibt dann aber stecken
+    position: sticky; */
+    top: 10px;
+    left: 10px;
+
+
+}
