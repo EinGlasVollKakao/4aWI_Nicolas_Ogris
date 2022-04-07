@@ -1,0 +1,32 @@
+body {
+    font-family: monospace;
+}
+
+.container-top {
+    background-color: darkseagreen;
+    display: flex;
+    justify-content: space-between;
+    height: 68vh;
+}
+
+.box-top {
+    background-color: darkorange;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.container-bottom {
+    background-color: sandybrown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 29vh;
+}
+
+.box-bottom {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: yellowgreen;
+}
