@@ -1,0 +1,16 @@
+.box {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.container {
+    background-color: #5ad;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: monospace;
+}
