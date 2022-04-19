@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+div {
+    height: 50px;
+    background-color: red;
+}
+
+.container1 {
+    width: 50%; /*bezieht sich auf vaterelement*/
+    font-size: 1em; /* bezieht sich auf schriftgröße von Vatercontainer (= gleich groß wie font in main) */
+}
+
+.container2 {
+    width: 50vw; /*bezieht sich auf bildschirm*/
+    height: 50vh;
+}
+
+.main {
+    background-color: magenta;
+    height: 200px;
+    width: 200px;
+    font-size: 1.5rem; /*in verhältnis zu "standard" schriftgröße (in unserem fall als 20px deklariert)*/
+}
