@@ -1,0 +1,50 @@
+.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    height: 50px;
+    width: 50px;
+
+    background-color: olive;
+}
+
+.content {
+    position: relative;
+    padding: 20px;
+
+    margin: 20px;
+    margin-bottom: 50px;
+
+    height: 300px;
+    width: 760px;
+
+    background-color: indigo;
+    color: aqua;
+}
+
+.fixedContent {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    height: 100px;
+    width: 140px;
+
+    background-color: gold;
+}
+
+.boxBehälter {
+    display: flex;
+    justify-content: space-around;
+    background-color: orchid;
+}
+
+.boxes {
+    background-color: lightcoral;
+    height: 100px;
+    width: 100px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
