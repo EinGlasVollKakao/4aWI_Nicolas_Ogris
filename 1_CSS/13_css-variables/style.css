@@ -1,0 +1,27 @@
+* {
+    font-family: monospace;
+    font-size: 18px;
+
+    --fontSizeBig: 1.5rem;
+    --fontSizeMed: 1.3rem;
+    --fontSizeNorm: 0.3rem;
+    --mainColor: rgba(24, 47, 134, 0.682);
+}
+
+.header {
+    font-size: var(--fontSizeBig);
+    font-weight: 800;
+}
+
+.subheader {
+    font-size: var(--fontSizeMed);
+    background-color: var(--mainColor);
+}
+
+.main {
+    font-size: var(--fontSizeNorm);
+}
+
+.sidebar {
+    font-size: var(--fontSizeNorm);
+}
